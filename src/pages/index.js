@@ -26,7 +26,7 @@ const IndexPage = () => (
     render={data => (
         <div>
         {data.allNodePage.edges.map(({ node }, i) => (
-          <li key={i}> page title <h3> {node.title}</h3> <br /><br /> {node.body.value} </li>
+          <li key={i}> <h3> {node.title}</h3> </li>
 
         ))}
         
